@@ -1,5 +1,15 @@
 # ♟️ Discrete Structures‑Based Chess AI (Pygame)
 
+## 📌 Note about this Repository
+
+This specific repository is a **refined, consolidated showcase version** of the final project code.  
+
+The original, collaborative codebase—featuring multiple Python modules, separate commits by all team members, and the full development history—is hosted in the primary repository maintained by the team leader, **Sude Kaya**.  
+
+This version has been formatted for **ease of individual running and modification**, making it simpler to explore the chess AI, experiment with move validation, or adapt it for personal learning projects.
+
+---
+
 This repository contains a complete, single‑file implementation of a fully functional chess game with a graphical interface and an AI opponent. Developed as a course project at Erciyes University, this project showcases how fundamental concepts from **Discrete Structures** can be practically applied in programming.
 
 The project brings together several important ideas from computer science:
