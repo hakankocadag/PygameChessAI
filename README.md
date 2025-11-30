@@ -10,7 +10,7 @@ This version has been formatted for **ease of individual running and modificatio
 
 ## 📄 License / Usage Notice
 
-This repository is a **showcase of the team project** developed by the chess AI team at Erciyes University, led by **Sude Kaya**.  
+This repository is a **showcase of the team project** developed by the Discreet Structures group 9 team team at Erciyes University, led by **Sude Kaya**.  
 
 It is provided for **educational purposes only**. No part of the code should be copied, redistributed, or used for other projects without the **consent of the project team**.  
 
