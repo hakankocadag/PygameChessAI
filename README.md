@@ -69,6 +69,4 @@ cd PygameChessAI
 
 pip install pygame  
 
-# Ensure `images/` folder contains all 12 chess piece images (e.g. wK.png, bP.png, etc.)  
-
 python ChessAI.py
