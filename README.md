@@ -47,7 +47,7 @@ The project was developed by a team of students under the guidance of **Asst. Pr
 | Team Member | Responsibility | Role |
 |-------------|----------------|------|
 | **Sude Kaya** | AI Chess Opponent (Negamax, evaluation, alpha-beta pruning) & Project Management | AI Developer / Team Leader |  
-| **Hakan Kocadağ** (you) | Move validation, piece geometry, path clearance | Move Validation Specialist |  
+| **Hakan Kocadağ** (me) | Move validation, piece geometry, path clearance | Move Validation Specialist |  
 | **Zehra Yavuzer** | Check / Checkmate logic, king safety detection | Checkmate Logic Specialist |  
 | **Shafiqullah Qaweem** | Board representation, game state tracking (turn, pieces, history) | Game State Developer |  
 | **Mugahed Lahmar** | Main game loop & FSM for player input and turns | Game Loop / FSM Developer |  
