@@ -8,6 +8,14 @@ The original, collaborative codebase—featuring multiple Python modules, separa
 
 This version has been formatted for **ease of individual running and modification**, making it simpler to explore the chess AI, experiment with move validation, or adapt it for personal learning projects.
 
+## 📄 License / Usage Notice
+
+This repository is a **showcase of the team project** developed by the chess AI team at Erciyes University, led by **Sude Kaya**.  
+
+It is provided for **educational purposes only**. No part of the code should be copied, redistributed, or used for other projects without the **consent of the project team**.  
+
+All credit for the original project and contributions goes to the entire team.
+
 ---
 
 This repository contains a complete, single‑file implementation of a fully functional chess game with a graphical interface and an AI opponent. Developed as a course project at Erciyes University, this project showcases how fundamental concepts from **Discrete Structures** can be practically applied in programming.
