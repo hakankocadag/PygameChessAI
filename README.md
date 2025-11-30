@@ -60,7 +60,7 @@ As the **Move Validation Specialist**, I designed and implemented the core syste
 
 ## 👥 Team & Roles  
 
-The project was developed by a team of students under the guidance of **Asst. Prof. Fatih Sarıkoç**. Each member handled a specific responsibility to bring the project together:
+The project was developed by a team of students under the guidance of Discreet Structures lecturer **Asst. Prof. Fatih Sarıkoç**. Each member handled a specific responsibility to bring the project together:
 
 | Team Member | Responsibility | Role |
 |-------------|----------------|------|
