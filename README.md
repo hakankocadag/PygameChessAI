@@ -1,69 +1,74 @@
-# ♟️ Discrete Structures-Based Chess AI (Pygame)
+# ♟️ Discrete Structures‑Based Chess AI (Pygame)
 
-This repository contains a complete, single-file implementation of a fully functional chess game with a Graphical User Interface (GUI) and an AI opponent. It was developed as a course project at Erciyes University, demonstrating how **Discrete Structures** concepts can be applied to real-world programming problems.
+This repository contains a complete, single‑file implementation of a fully functional chess game with a graphical interface and an AI opponent. Developed as a course project at Erciyes University, this project showcases how fundamental concepts from **Discrete Structures** can be practically applied in programming.
 
-The project highlights the practical use of several computer science concepts:
+The project brings together several important ideas from computer science:
 
-* **Matrices (2D Arrays):** Representing the chessboard and tracking piece positions.  
-* **Game Trees & Recursion:** Implemented in the AI using the Negamax algorithm.  
-* **Finite State Machines (FSM):** Managing the game loop and player interactions, including piece selection and moves.  
-* **Boolean Logic & Set Theory:** Core to validating moves, detecting checks, and handling checkmate scenarios.  
-
----
-
-## 🛠️ Technical Core and Implementation
-
-### Game Engine & AI
-
-* **Language & GUI:** The project is entirely developed in **Python** with **Pygame** providing the interactive interface.  
-* **AI Algorithm:** The computer opponent uses the **Negamax algorithm** with **Alpha-Beta Pruning** to efficiently search the game tree and select optimal moves.  
-* **Board Representation:** The chessboard is an 8x8 matrix, making it straightforward to update positions and manage piece movement.
-
-### My Contribution: Move Validation (Hakan Kocadağ)
-
-As the **Move Validation Specialist**, I focused on building a robust system to enforce the rules of chess:
-
-* **Modular Validation:** Created separate functions for each piece type (Pawn, Rook, Knight, Bishop, Queen, King).  
-* **Path Clearance:** Developed the `is_path_clear` function to ensure sliding pieces cannot move through obstacles.  
-* **Rule Enforcement:** Ensured all geometric and logical rules of chess are properly implemented, demonstrating practical use of discrete mathematics principles.
+* **Matrices (2D Arrays):** Using an 8×8 matrix to represent the chessboard and manage piece positions.  
+* **Game Trees & Recursion:** The AI opponent relies on the **Negamax algorithm** (with alpha‑beta pruning) to search move trees and choose optimal moves.  
+* **Finite State Machine (FSM):** Underlies the game loop to handle player interactions: selecting pieces, moving them, turn switching.  
+* **Boolean Logic & Set Theory:** Used heavily in move validation and check/checkmate detection, encoding chess rules in logical and set‑based form.
 
 ---
 
-## 👥 Team & Roles
+## 📚 Table of Contents
 
-The project was developed by a team of students under the guidance of **Asst. Prof. Fatih Sarıkoç**. Each member contributed a specific part to ensure the project’s success:
-
-| Team Member | Core Responsibility | Role |
-| :--- | :--- | :--- |
-| **Sude Kaya** | AI opponent (Negamax, Evaluation, Alpha-Beta Pruning) & project management | AI Developer / Team Leader |
-| **Hakan Kocadağ** | Validating chess moves, ensuring piece geometry and path clearance | Move Validation Specialist |
-| **Zehra Yavuzer** | Check and checkmate logic, king safety detection | Checkmate Logic Specialist |
-| **Shafiqullah Qaweem** | Board representation, game state tracking | Game State Developer |
-| **Mugahed Lahmar** | Implementing the game loop using FSM for player input and turn handling | Game Loop / FSM Developer |
-| **Tarık Ömer Tatlı** | Building the GUI with Pygame | GUI Developer |
+- [Technical Core & Implementation](#-technical-core--implementation)  
+- [My Contribution — Move Validation](#-my-contribution--move-validation)  
+- [Team & Roles](#-team--roles)  
+- [Setup & Running the Game](#-setup--running-the-game)  
+- [What You Get / Features](#-what-you-get--features)  
+- [Credits & License](#-credits--license)
 
 ---
 
-## ⚙️ Setup & Running the Game
+## 🛠️ Technical Core & Implementation
 
-### Requirements
+### Game Engine & AI  
+* **Language & GUI:** Written entirely in **Python**, using **Pygame** for rendering and user interaction.  
+* **AI:** The computer player executes the **Negamax algorithm** with **Alpha-Beta Pruning** to efficiently evaluate the game tree and select strong moves.  
+* **Board Representation:** The chessboard is stored as an 8×8 matrix, which simplifies tracking piece positions, movement, captures, and state updates.
 
+---
+
+## ✅ My Contribution — Move Validation (Hakan Kocadağ)  
+As the **Move Validation Specialist**, I designed and implemented the core system that ensures all chess moves follow the official geometric and logical rules:
+
+* **Per‑piece Validation:** Separate functions handle move logic for each type of piece (Pawn, Rook, Knight, Bishop, Queen, King).  
+* **Path Clearance:** For sliding pieces (Rook, Bishop, Queen), I implemented an `is_path_clear` check to ensure they cannot jump over other pieces.  
+* **Rule Enforcement:** The validation logic rigorously follows the rules derived from discrete mathematics, covering movement, captures, check/checkmate conditions, and special moves as needed.
+
+---
+
+## 👥 Team & Roles  
+
+The project was developed by a team of students under the guidance of **Asst. Prof. Fatih Sarıkoç**. Each member handled a specific responsibility to bring the project together:
+
+| Team Member | Responsibility | Role |
+|-------------|----------------|------|
+| **Sude Kaya** | AI Chess Opponent (Negamax, evaluation, alpha-beta pruning) & Project Management | AI Developer / Team Leader |  
+| **Hakan Kocadağ** (you) | Move validation, piece geometry, path clearance | Move Validation Specialist |  
+| **Zehra Yavuzer** | Check / Checkmate logic, king safety detection | Checkmate Logic Specialist |  
+| **Shafiqullah Qaweem** | Board representation, game state tracking (turn, pieces, history) | Game State Developer |  
+| **Mugahed Lahmar** | Main game loop & FSM for player input and turns | Game Loop / FSM Developer |  
+| **Tarık Ömer Tatlı** | Graphical User Interface (GUI) implementation using Pygame | GUI Developer |  
+
+---
+
+## ⚙️ Setup & Running the Game  
+
+### Requirements  
 * Python 3.x  
 * Pygame library  
 
-### Instructions
+### How to Run  
 
-1. **Clone the Repository:**
-    ```bash
-    git clone [YOUR_REPOSITORY_URL]
-    cd [YOUR_REPOSITORY_NAME]
-    ```
-2. **Install Pygame:**
-    ```bash
-    pip install pygame
-    ```
-3. **Verify Images:** Make sure the `images/` folder contains all 12 chess piece images (`wK.png`, `bP.png`, etc.).  
-4. **Run the Game:**
-    ```bash
-    python ChessAI.py
-    ```
+```bash
+git clone https://github.com/hakankocadag/PygameChessAI  
+cd PygameChessAI  
+
+pip install pygame  
+
+# Ensure `images/` folder contains all 12 chess piece images (e.g. wK.png, bP.png, etc.)  
+
+python ChessAI.py
