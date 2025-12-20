@@ -10,7 +10,6 @@ This version has been formatted for **ease of individual running and modificatio
 
 <img width="1409" height="1009" alt="image" src="https://github.com/user-attachments/assets/89b7faea-21a0-4f9f-acab-4abc47b89301" />
 
-
 ## 📄 License / Usage Notice
 
 This repository is a **showcase of the team project** developed by the Discreet Structures group 9 team at Erciyes University, led by **Sude Kaya**.  
