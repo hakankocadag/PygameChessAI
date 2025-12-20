@@ -1,4 +1,14 @@
-# ♟️ Discrete Structures‑Based Chess AI (Pygame)
+# ♟️ Discrete Structures-Based Chess AI (Pygame)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/89b7faea-21a0-4f9f-acab-4abc47b89301" 
+       alt="Chess AI gameplay screenshot" 
+       width="800" />
+</p>
+
+<p align="center">
+  <em>Pygame-based chess engine with AI opponent using Negamax and alpha–beta pruning</em>
+</p>
 
 ## 📌 Note about this Repository
 
