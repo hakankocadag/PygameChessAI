@@ -1,4 +1,4 @@
-# Discrete Structures-Based Chess AI (Pygame)
+# Chess AI (Pygame)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/89b7faea-21a0-4f9f-acab-4abc47b89301" 
