@@ -88,3 +88,5 @@ cd PygameChessAI
 pip install pygame  
 
 python ChessAI.py
+
+<img width="1409" height="1009" alt="image" src="https://github.com/user-attachments/assets/aac5a183-9a7c-4986-a932-6940fd6998bd" />
