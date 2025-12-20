@@ -1,4 +1,4 @@
-# ♟️ Discrete Structures-Based Chess AI (Pygame)
+# Discrete Structures-Based Chess AI (Pygame)
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/89b7faea-21a0-4f9f-acab-4abc47b89301" 
@@ -10,7 +10,7 @@
   <em>Pygame-based chess engine with AI opponent using Negamax and alpha–beta pruning</em>
 </p>
 
-## 📌 Note about this Repository
+## Note about this Repository
 
 This specific repository is a **refined, consolidated showcase version** of the final project code.  
 
@@ -18,7 +18,7 @@ The original, collaborative codebase—featuring multiple Python modules, separa
 
 This version has been formatted for **ease of individual running and modification**, making it simpler to explore the chess AI, experiment with move validation, or adapt it for personal learning projects.
 
-## 📄 License / Usage Notice
+## License / Usage Notice
 
 This repository is a **showcase of the team project** developed by the Discreet Structures group 9 team at Erciyes University, led by **Sude Kaya**.  
 
@@ -39,7 +39,7 @@ The project brings together several important ideas from computer science:
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Technical Core & Implementation](#-technical-core--implementation)  
 - [My Contribution — Move Validation](#-my-contribution--move-validation)  
@@ -50,7 +50,7 @@ The project brings together several important ideas from computer science:
 
 ---
 
-## 🛠️ Technical Core & Implementation
+## Technical Core & Implementation
 
 ### Game Engine & AI  
 * **Language & GUI:** Written entirely in **Python**, using **Pygame** for rendering and user interaction.  
@@ -59,7 +59,7 @@ The project brings together several important ideas from computer science:
 
 ---
 
-## ✅ My Contribution — Move Validation (Hakan Kocadağ)  
+## My Contribution — Move Validation (Hakan Kocadağ)  
 As the **Move Validation Specialist**, I designed and implemented the core system that ensures all chess moves follow the official geometric and logical rules:
 
 * **Per‑piece Validation:** Separate functions handle move logic for each type of piece (Pawn, Rook, Knight, Bishop, Queen, King).  
@@ -68,7 +68,7 @@ As the **Move Validation Specialist**, I designed and implemented the core syste
 
 ---
 
-## 👥 Team & Roles  
+## Team & Roles  
 
 The project was developed by a team of students under the guidance of Discreet Structures lecturer **Asst. Prof. Fatih Sarıkoç**. Each member handled a specific responsibility to bring the project together:
 
@@ -83,7 +83,7 @@ The project was developed by a team of students under the guidance of Discreet S
 
 ---
 
-## ⚙️ Setup & Running the Game  
+## Setup & Running the Game  
 
 ### Requirements  
 * Python 3.x  
